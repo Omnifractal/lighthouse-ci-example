@@ -1,0 +1,12 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./",
+      "numberOfRuns": 3
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "budgetFile": "./budgets.json"
+    }
+  }
+}
